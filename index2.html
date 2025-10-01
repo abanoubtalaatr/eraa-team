@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EraaSoft - Not Discuss</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .profile-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .title {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .bio {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            width: calc(50% - 30px);
+        }
+        .image-wrapper img {
+            width: 100%;
+            height: 250px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .download-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 0;
+        }
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .social-icon {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+        .social-icon:hover {
+            background-color: #0056b3;
+        }
+        .company-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+        .company-list li {
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 10px 15px;
+            border-left: 5px solid #007bff;
+            border-radius: 4px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .tabs {
+            display: flex;
+            gap: 8px;
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+        .tab-link {
+            display: inline-block;
+            padding: 10px 14px;
+            text-decoration: none;
+            color: #0056b3;
+            background: #e8f1ff;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .tab-link:hover {
+            background: #d7e9ff;
+        }
+        .tab-link.active {
+            background: #0056b3;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="tabs" aria-label="Team tabs">
+            <a class="tab-link" href="./index.html">Team will discuss</a>
+            <a class="tab-link active" href="./index2.html">Team will not discuss</a>
+        </nav>
+        <h3 style="text-align: center;background:#0056b3;padding: 20px;color:white">التيم اللي مش هيناقش</h3>
+
+        <!-- Content for the team that will NOT discuss -->
+        <div class="profile-container">
+            <div class="section">
+                <div class="name">Mohamed Magdy</div>
+                <div class="title">Front-end Developer</div>
+            </div>
+
+            <div class="section">
+                <div class="image-row">
+                    
+                    <div class="image-wrapper">
+                        <img src="./assets/mohamed_magdy.jpeg" alt="ID Front">
+                        <a href="./assets/mohamed_magdy.jpeg" download="mohamed_magdy.jpeg" class="download-button">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content for the team that will NOT discuss -->
+        <div class="profile-container">
+            <div class="section">
+                <div class="name">Selvia Samuel </div>
+                <div class="title">Graphic Designer</div>
+            </div>
+
+            <div class="section">
+                <div class="image-row">
+                    
+                    <div class="image-wrapper">
+                        <img src="./assets/selvia.jpeg" alt="ID Front">
+                        <a href="./assets/selvia.jpeg" download="selvia.jpeg" class="download-button">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content for the team that will NOT discuss -->
+        <div class="profile-container">
+            <div class="section">
+                <div class="name">Mohamed  Ahmed </div>
+                <div class="title">Backend Developer Laravel</div>
+            </div>
+
+            <div class="section">
+                <div class="image-row">
+                    
+                    <div class="image-wrapper">
+                        <img src="./assets/mohamed_ahmed.jpeg" alt="ID Front">
+                        <a href="./assets/mohamed_ahmed.jpeg" download="mohamed_ahmed.jpeg" class="download-button">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content for the team that will NOT discuss -->
+        <div class="profile-container">
+            <div class="section">
+                <div class="name">Zienab Amr </div>
+                <div class="title">UI & UX Designer</div>
+            </div>
+
+            <div class="section">
+                <div class="image-row">
+                    
+                    <div class="image-wrapper">
+                        <img src="./assets/zienab.jpeg" alt="ID Front">
+                        <a href="./assets/zienab.jpeg" download="zienab.jpeg" class="download-button">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content for the team that will NOT discuss -->
+        <div class="profile-container">
+            <div class="section">
+                <div class="name">Mazen Essam </div>
+                <div class="title">Front-end Developer</div>
+            </div>
+
+            <div class="section">
+                <div class="image-row">
+                    
+                    <div class="image-wrapper">
+                        <img src="./assets/mazen.jpeg" alt="ID Front">
+                        <a href="./assets/mazen.jpeg" download="mazen.jpeg" class="download-button">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
